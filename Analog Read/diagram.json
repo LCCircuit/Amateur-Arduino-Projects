@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "LC Circuit",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 10.2, "left": -39, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -68.5, "left": 76.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:GND", "uno:GND.1", "black", [ "v0" ] ],
+    [ "pot1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "pot1:SIG", "uno:A4", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
